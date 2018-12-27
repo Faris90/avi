@@ -37,8 +37,8 @@ const value = Object.seal({
     minionEnableERTPControls: false,
     minionEnableQBasedControl: true,
 
-    pelletMinSize: 10,
-    pelletMaxSize: 20,
+    pelletMinSize: 20,
+    pelletMaxSize: 32,
     pelletGrowTicks: 25 * 60,
     pelletCount: 1000,
 
