@@ -8,11 +8,11 @@ const value = Object.seal({
     listenerMaxConnectionsPerIP: -1,
     listenerMinLegacyProtocol: 1,
     listenerMaxLegacyProtocol: 18,
-    listeningPort: 443,
+    listeningPort: 8080,
 
     serverUpdateFrequency: 25,
     serverName: "An unnamed server",
-    serverGamemode: "FFA",
+    serverGamemode: "Last Man Standing",
     serverChatEnabled: true,
 
     worldMapX: 0,
@@ -57,7 +57,7 @@ const value = Object.seal({
     ejectedCellBoost: 780,
 
     mothercellSize: 149,
-    mothercellCount: 0,
+    mothercellCount: 5,
     mothercellPassiveSpawnChance: 0.05,
     mothercellActiveSpawnSpeed: 1,
     mothercellPelletBoost: 90,
@@ -71,11 +71,11 @@ const value = Object.seal({
     playerMaxNameLength: 16,
     
     playerMinSize: 32,
-    playerSpawnSize: 32,
+    playerSpawnSize: 100,
     playerMaxSize: 1500,
     playerMinSplitSize: 60,
     playerMinEjectSize: 60,
-    playerMaxCells: 16,
+    playerMaxCells: 64,
 
     playerMoveMult: 1,
     playerSplitBoost: 780,
@@ -83,7 +83,7 @@ const value = Object.seal({
     playerNoMergeDelay: 15,
     /** @type {"old" | "new"} */
     playerMergeVersion: "old",
-    playerMergeTime: 30,
+    playerMergeTime: 0.1,
     playerMergeTimeIncrease: 0.02,
     playerDecayMult: 0.001
 });
