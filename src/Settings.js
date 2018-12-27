@@ -25,11 +25,11 @@ const value = Object.seal({
     worldSafeSpawnFromEjectedChance: 0.8,
     worldPlayerDisposeDelay: 25 * 60,
 
-    worldPlayerBotsPerWorld: 0,
+    worldPlayerBotsPerWorld: 10,
     worldMinionsPerPlayer: 0,
     worldMaxPlayers: 50,
     worldMaxCount: 2,
-    matchmakerNeedsQueuing: false,
+    matchmakerNeedsQueuing: true,
     matchmakerBulkSize: 1,
 
     minionName: "Minion",
